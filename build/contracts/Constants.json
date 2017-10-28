@@ -1,0 +1,217 @@
+{
+  "contract_name": "Constants",
+  "abi": [
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "TEAM_SHARE_PERCENTAGE",
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "delayOfICO2",
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "blocksByDay",
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "maxTokenSupplyICO2",
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "PRICE_ICO4",
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "maxTokenSupplyICOEND",
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "delayOfICOEND",
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "PRICE_ICO1",
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "PRICE_ICO2",
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "PRICE_PREICO",
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "PRE_ICO_RISK_PERCENTAGE",
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "minimumGoal",
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "delayOfPreICO",
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "maxTokenSupplyICO1",
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "delayOfICO1",
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "maxTokenSupplyPreICO",
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "type": "function"
+    }
+  ],
+  "unlinked_binary": "0x6060604052341561000f57600080fd5b5b6103f68061001f6000396000f300606060405236156100e35763ffffffff7c010000000000000000000000000000000000000000000000000000000060003504166301b74d7381146100e85780630e2a05c81461010d578063100153b614610132578063123c3a4f146101575780631565b0b61461017c5780631dbde6c7146101a157806321ea2b8d146101c657806341923c0c146101eb5780637fd751a8146102105780638c06fa1814610235578063a4d728861461025a578063bc6973191461027f578063f0b5165f146102a4578063f4b2f5b6146102c9578063f6adab61146102ee578063f7759c841461027f575b600080fd5b34156100f357600080fd5b6100fb610338565b60405190815260200160405180910390f35b341561011857600080fd5b6100fb61033d565b60405190815260200160405180910390f35b341561013d57600080fd5b6100fb610344565b60405190815260200160405180910390f35b341561016257600080fd5b6100fb61034a565b60405190815260200160405180910390f35b341561018757600080fd5b6100fb61035a565b60405190815260200160405180910390f35b34156101ac57600080fd5b6100fb610360565b60405190815260200160405180910390f35b34156101d157600080fd5b6100fb610370565b60405190815260200160405180910390f35b34156101f657600080fd5b6100fb610377565b60405190815260200160405180910390f35b341561021b57600080fd5b6100fb61037d565b60405190815260200160405180910390f35b341561024057600080fd5b6100fb610383565b60405190815260200160405180910390f35b341561026557600080fd5b6100fb610389565b60405190815260200160405180910390f35b341561028a57600080fd5b6100fb61038e565b60405190815260200160405180910390f35b34156102af57600080fd5b6100fb61039d565b60405190815260200160405180910390f35b34156102d457600080fd5b6100fb6103a4565b60405190815260200160405180910390f35b34156102f957600080fd5b6100fb6103b4565b60405190815260200160405180910390f35b341561028a57600080fd5b6100fb61038e565b60405190815260200160405180910390f35b601081565b6206108081565b61168081565b6b024306c4097859c43c00000081565b614e2081565b6b02b6d4eb3e906bb84800000081565b6207e90081565b61823581565b6161a881565b61c35081565b600581565b6af8277896582678ac00000081565b6202058081565b6b019d971e4fe8401e7400000081565b62040b0081565b6af8277896582678ac000000815600a165627a7a7230582074f73e30c841e445934d1d082badde698adcfb4650fbfaa210bd9dcda5cae5290029",
+  "networks": {},
+  "schema_version": "0.0.5",
+  "updated_at": 1509195604620
+}
