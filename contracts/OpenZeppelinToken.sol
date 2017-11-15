@@ -27,17 +27,6 @@ contract Ownable {
     }
   }
 
-
-  /**
-   * @dev Allows the current owner to transfer control of the contract to a newOwner.
-   * @param newOwner The address to transfer ownership to.
-   */
-  function transferOwnership(address newOwner) onlyOwner public{
-    if (newOwner != address(0)) {
-      owner = newOwner;
-    }
-  }
-
 }
 contract ERC20Basic {
   uint256 public totalSupply;
@@ -167,6 +156,7 @@ contract MintableToken is StandardToken, Ownable {
     totalSupply = totalSupply.add(_amount);
     balances[_to] = balances[_to].add(_amount);
     Mint(_to, _amount);
+    Transfer(address(0),_to,_amount);
     return true;
   }
 
